@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling and Event Capturing</title>
+    <style>
+        .parentDiv{
+            background-color: rgb(149, 177, 249);
+            height: 50vh;
+            display: flex;
+            width: 50vh;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            border-radius: 6px;
+            box-shadow: 0 8px 10px rgb(0, 0 , 0 ,0.4);
+        }
+
+        .childDiv{
+            background-color: rgb(47, 91, 18);
+            height: 30vh;
+            cursor: pointer;
+            width: 30vh;
+            border-radius: 6px;
+            border: rgb(0, 0 , 0 );
+            box-shadow: 0 14px 18px rgb(0, 0 , 0 , 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="parentDiv" id="parentDiv">
+        <div class="childDiv" id="childDiv"></div>
+    </div>
+</body>
+<script>
+    const parentId = document.getElementById('parentId');
+    const childId = document.getElementById('childId');
+
+    const parentCall = () => {
+        alert('Parent Div Call');
+    }
+
+    const childCall = () => {
+        alert('Child Div Call');
+        //event.stopPropagation();
+    }
+
+    parentId.addEventListener('click', parentCall);
+    childId.addEventListener('click',childCall);
+
+// By default Event Bubbling hota hai
+
+</script>
+
+</html> -->
