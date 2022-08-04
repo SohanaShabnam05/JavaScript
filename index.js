@@ -1240,10 +1240,10 @@ Source Array
 
 // Here are some example of HTML events::
 
-// An HTML web page has finished loading
-// An HTML input feild was changed
-// An HTML button was clicked
-//often, when events happen, you may to do something
+// An HTML web page has finished loading.
+// An HTML input feild was changed.
+// An HTML button was clicked.
+//often, when events happen, you may to do something.
 
 
 // 🌟section-1>> 4 Ways of writing Events in JavaScript
@@ -1767,6 +1767,6 @@ Source Array
 // var object_as_string_as_object = JSON.parse(object_as_string);
 // // {key_1: "some text", key_2: true, key_3: 5}
 
-// typeof(object_as_string_as_object);
+// typeof(object_as_string_as_object)
 // // // "object"
 
